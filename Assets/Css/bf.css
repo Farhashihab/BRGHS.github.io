@@ -1111,51 +1111,44 @@ margin-right: 2%;
 	width: 100%;
 }
 .side-menu ul li a {
-	display: block;
-	text-decoration: none;
-	/* background: #17E86C; */
-	border: #2F2D2E;
-	padding: 10px 0px 14px 10px;
-	/* margin: -2px; */
-	-moz-transition: .75s;
-	color: #fff;
-	border-left: 1px solid #6F4B5C;
-	margin-top: -5px;
-	font-size: 10px;
-	text-align: left;
+    display: block;
+    text-decoration: none;
+    border: #2F2D2E;
+    padding: 6px 0px 12px 10px;
+    -moz-transition: .75s;
+    color: #fff;
+    margin-top: -5px;
+    font-size: 13px;
+    text-align: left;
 }
 .side-menu ul li ul {
-	margin-top: -51px;
-	margin-left: -72%;
-	border-radius: 0;
-	width: 106%;
+    margin-top: -38px;
+    margin-left: -69%;
+    border-radius: 0;
+    width: 160px;
 }
 .side-menu ul li ul li {
-	width: 110%;
-	/* border-bottom: 1px solid #000; */
-	/* background: #0099CB; */
-	padding: 2px;
-	/* margin-left: -14px; */
-	text-align: center;
-	/* background-image: url(../image/lmenu_nbg.jpg); */
+	    width: 160px;
+    padding: 2px;
+    text-align: center;
 }
 .side-menu ul li ul li ul {
-	margin-left: -64%;
-	/* position: relative; */
-	/* display: none; */
-	margin-top: -28%;
+    margin-top: -21%;
+    /* position: absolute; */
+    margin-left: -39px;
 }
 .side-menu ul li ul li a {
-	font-size: 10px;
-	padding: 4px 0px 8px 8px;
+	font-size: 12px;
+	padding: 5px 0px 6px 6px;
 }
 .side-menu ul li ul li a i {
-	margin-left: 91%;
-	margin-top: -14px;
+    margin-top: -1px;
+    position: absolute;
+    right: 5px;
 }
 .side-menu ul li ul li ul li ul {
-	margin-left: -56%;
-	margin-top: -24%;
+    margin-left: -24%;
+    margin-top: -22%;
 }
 .side {
 	float: left;
