@@ -83,7 +83,7 @@
             <li><a href="news_and_event.html">NEWS AND EVENTS</a>
             	<ul>
                     <li><a href="training.html">Training and Seminar</a></li>
-                    <li><a href="Sports.html">Sports and Culture<i class="fas fa-caret-right"></i></a>
+                    <li><a href="Sports.html">Sports and Culture</a><i class="fas fa-caret-right"></i>
                         <ul>
                             <li><a href="Inter_House_Annual_Sports.html">Inter-House Annual Sports</a></li>
                             <li><a href="Prize_Giving.html">Annual Cultural & Prize Giving Programmee-2013</a></li>
@@ -427,20 +427,16 @@
 
   <script type="text/javascript" src="Assets/Js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="Assets/Js/jquery.bxslider.min.js"></script>
-  <script>
-        
-    $( document ).ready(function() {
- 
- $('.bxslider').bxSlider({
-  mode:'vertical',
-  auto: true,
-  autoControls: true,
-  stopAutoOnClick: true,
-  pager: true,
-  slideWidth: 900
-});
-});
-    </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider({
+         width: 900,
+         height:400,
+         navigation: false,
+         delay: 4000 
+      });
+    });
+</script>
   
   <script type="text/javascript" src="Assets/Js/bootstrap.min.js"></script>
   <script type="text/javascript" src="Assets/Js/fontawesome.js"></script>

@@ -2222,6 +2222,9 @@ margin-top:5px;
 @media screen and (max-width:481px){
 
 
+.nav-sec ul li a {
+    font-size: 10px;
+}
 
 .nav-sec {
 	padding: 0;
@@ -2230,6 +2233,12 @@ margin-top:5px;
 }
 .nav-sec ul {
 	width: 125%;
+}
+.nav-sec ul li ul {
+  
+    margin-top: -8%;
+    margin-left: 37%;
+    width: 132px!important;
 }
 .notic-l {
 	float: left;
@@ -2306,8 +2315,9 @@ margin-top:5px;
 	border-radius: 16px;
 }
 .side-menu ul li ul li a {
-	font-size: 10px;
-	padding: 4px 0px 8px 2px;
+    font-size: 10px;
+    padding: 5px 0px 5px 9px;
+    margin-top: -2px;
 }
 .side-menu ul li ul li ul {
 	margin-left: -126%;
@@ -2445,7 +2455,7 @@ margin-top:5px;
 	font-size: 14px;
 }
 .side-menu ul li ul {
-	margin-left: -77%;
+	margin-left: -91%;
 	width: 109%;
 	margin-top: -30%;
 }
