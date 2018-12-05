@@ -75,19 +75,15 @@ margin-right: 2%;
 	text-transform: uppercase;
 }
 .nav-sec ul li ul {
-	position: absolute;
-	display: none;
-	z-index: 999999;
-	padding: 0;
-	margin-top: 9px;
-	margin-left: -11px;
-	transition: height 2s;
-	-webkit-transition: height 2s;
-	-moz-transition: height 2s;
-	-o-transition: height 2s;
-	-ms-transition: height 2s;
-	height: 0px;
-	transition: height 2s;
+    position: absolute;
+    display: none;
+    z-index: 999999;
+    padding: 0;
+    height: 0px;
+    transition: height 2s;
+    left: 0;
+    top: 40px;
+    width: 230px;
 }
 .nav-sec ul li:hover > ul{
 	display: block;
@@ -99,22 +95,20 @@ margin-right: 2%;
 	transition: background 1s;
 }
 .nav-sec ul li ul li {
-	width: 100%;
-	border-bottom: 1px solid #000;
-	background: #0099CB;
-	/* margin-left: -8px; */
-	text-align: left;
-	/* border: .5px solid #962F34; */
-	border-right: none;
-	font-size: 14px;
-	padding: 1px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background: #0099CB;
+    text-align: left;
+    border-right: none;
+    font-size: 14px;
+    padding: 5px;
 }
 .cret {
-	margin-left: 78px;
-	font-size: 21px;
-	color: #202340;
-	margin-top: -22px;
-	float: left;
+    font-size: 21px;
+    color: #202340;
+    margin-top: 0;
+    position: absolute;
+    right: 10px;
 }
 .nav-sec ul li ul li a {
 	margin-left: 2%;
@@ -130,7 +124,7 @@ margin-right: 2%;
 .nav-sec ul li ul li ul {
 	z-index: 999990;
 	margin-left: 100%;
-	margin-top: -16%;
+	margin-top: -18%;
 	width: 100%;
 }
 .nav-sec ul li ul li ul li{}
@@ -966,29 +960,46 @@ margin-right: 2%;
 	width: 100%;
 }
 .nav-sec ul li {
-	position: relative;
+	/*position: relative;*/
 	display: block;
 	float: none;
 	padding: 1%;
 	margin-left: -8%;
 	border-bottom: 1px solid #202340;
 }
+.nav-sec ul li ul {
+    position: absolute;
+    /*display: none;*/
+    z-index: 999999;
+    padding: 0;
+    height: 0px;
+    transition: height 2s;
+    left: 0;
+    top: 40px;
+    width: 230px;
+}
+.nav-sec ul li:hover > ul{
+	display: block;
+	
+}
+
+
 .nav-sec ul li a {
 	font-size: 14px;
 }
 .nav-sec ul li ul {
-	position: absolute;
-	display: none;
+	/*position: absolute;*/
+	/*display: none;*/
 	z-index: 999999;
 	padding: 0;
-	margin-top: -6%;
-	margin-left: 49%;
-	width: 30% !important;
+	margin-top: -7%;
+	margin-left: 42%;
+	width: 200px !important;
 }
 .nav-sec ul li ul li{}
 .nav-sec ul li ul li ul {
-	margin-left: 102%;
-	margin-top: -19%;
+	margin-left: 108%;
+	margin-top: -20%;
 }
 .nav-sec ul li ul li ul li {
 	width: 238%;
