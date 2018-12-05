@@ -226,15 +226,15 @@ margin-right: 2%;
 }
 
 .side-menu ul li ul {
-	margin-top: -42px;
-	margin-left: 15%;
+	margin-top: -32px;
+	margin-left: 34px;
 	border-radius: 0;
 	z-index: 999998;
 }
 .side-menu ul li ul li {
 	background-image: none;
 	margin-left: 0%;
-	border: .5px solid #898989;
+	/*border: .5px solid #898989;*/
 	margin: 0;
 	padding: 0;
 	margin-left: -5px;
@@ -249,10 +249,17 @@ margin-right: 2%;
 	margin-left: 12%;
 	/* position: relative; */
 	/* display: none; */
-	margin-top: -15%;
+	margin-top: -16%;
 }
 .side-menu ul li ul li a {
-	padding-bottom: 3px;
+    padding-bottom: 3px;
+    border: .5px solid #898989;
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+.side-menu ul ul li a:hover{
+	background-color: #0099CB;
+	/*display: block;*/
 }
 .side-menu ul li ul li a i {
 	margin-left: 190px;
@@ -262,8 +269,8 @@ margin-right: 2%;
 	border-left: none;
 }
 .side-menu ul li ul li ul li ul {
-	margin-left: 11%;
-	margin-top: -15%;
+	margin-left: 12%;
+	margin-top: -16%;
 }
 
 
